@@ -1,0 +1,13 @@
+name: 'dataos_dbt_trino'
+version: '1.0.0'
+config-version: 2
+
+profile: 'dbt_trino'
+
+
+model-paths: ["models"]
+
+
+models:
+  dbt_trino:
+    materialized: table
